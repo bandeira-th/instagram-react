@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: "Roboto", Sans-Serif;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FAFAFA;
+}
+
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app {
+  width: 100%;
+}
+
+span {
+  font-weight: 500;
+}
+header {
+  display: flex;
+  justify-content:center;
+  width:100%;
+  background-color: #fff;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+
+ input:focus {
+  outline: none;
+ }
+
+nav {
+  width: 100%;
+  max-width: 944px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav_logo-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.hidden-icons {
+  margin-left: 25.5px;
+}
+
+.nav_logo-bar {
+  width: 1px;
+  height: 22px;
+  background-color: #DBDBDB;
+  margin-right: 10px;
+}
+
+.insta-icon {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.search-field {
+  width: 215px;
+  height: 28px;
+  background-color: #FAFAFA;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+}
+
+.search-field::placeholder {
+  text-align: center;
+}
+
+.nav_icons-container{
+  display: flex;
+}
+
+.icons {
+  font-size: 22px;
+}
+
+.corpo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.container_central {
+  width: 614px;
+}
+/*Stories*/
+.container_stories {
+  display: flex;
+  width: 614px;
+  background-color: #fff;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  padding: 18px 0 18px 18px;
+  overflow: hidden;
+  position: relative;
+}
+
+.arrow{
+  position: absolute;
+  z-index: 1;
+  left: 94%;
+  top: 35%;
+}
+
+
+
+.stories_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:14px;
+  width: 66px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.stories_item p{
+  height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.stories_ring {
+  position: relative;
+}
+.stories_icon {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+/*End Stories*/
