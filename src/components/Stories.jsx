@@ -16,12 +16,12 @@ export default function Stories() {
     
     const stories = [
         {image: Img0, title:"9gag"},
-        {image: Img1, title:"9gag"},
-        {image: Img2, title:"9gag"},
-        {image: Img3, title:"9gag"},
-        {image: Img4, title:"9gag"},
-        {image: Img5, title:"9gag"},
-        {image: Img6, title:"9gag"},
+        {image: Img1, title:"meowed"},
+        {image: Img2, title:"barked"},
+        {image: Img3, title:"nathanwpyle..."},
+        {image: Img4, title:"wawawiwac..."},
+        {image: Img5, title:"respondeai"},
+        {image: Img6, title:"filomoderna"},
         {image: Img7, title:"9gag"},
     ]
     return (

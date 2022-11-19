@@ -1,10 +1,13 @@
 import React from "react";
-import Stories from "./Stories";
+import ContainerCentral from "./ContainerCentral";
+import SideBar from "./SideBar";
+
 
 export default function Corpo() {
     return (
         <div class="corpo">
-            <Stories />
+            <ContainerCentral />
+            <SideBar />
         </div>
     )
 }
