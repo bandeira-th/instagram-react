@@ -33,7 +33,7 @@ export default function Posts() {
       pBookMarkOutLine: Bookmark,
       pUserLikeLogo: UserLikeLogo0,
       pUserLikeName: "respondeai",
-      pLikesNumber: 101.523,
+      pLikesNumber: 101,
     },
     {
       pLogo: pLogo1,
@@ -46,7 +46,7 @@ export default function Posts() {
       pBookMarkOutLine: Bookmark,
       pUserLikeLogo: UserLikeLogo1,
       pUserLikeName: "adorableanimals",
-      pLikesNumber: 99.159,
+      pLikesNumber: 991,
     },
   ];
   return (
