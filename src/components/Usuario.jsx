@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-import { IoPencilOutline } from "react-icons/io5";
+import editPencil from "../images/pencil.svg"
 
 export default function Usuario(props) {
   const [username, setUsername] = useState(props.userTitle);
@@ -25,12 +25,12 @@ export default function Usuario(props) {
 
   return (
     <div class="personal-info" data-test="user">
-      <img src={userImage} alt="" onClick={changeUserImage} />
+      <img src={userImage} alt="" onClick={changeUserImage} data-test="profile-image" />
       <div class="personal_info-data">
-        <h2>{props.userName}</h2>
+        <h2 data-test="name">{props.userName}</h2>
         <div className="personal-info-username-box">
-          <p>{username}</p>{" "}
-          <IoPencilOutline
+          <p>{username}</p>
+          <img src={editPencil}
             onClick={() => {
               setUsername(prompt("Mude o nome de usuário"));
             }}

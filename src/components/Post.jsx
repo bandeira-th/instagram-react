@@ -40,7 +40,7 @@ export default function Post(props) {
   }
 
     return (
-        <div className="post">
+        <div className="post" data-test="post">
 
         <div className="post_header">
           <div className="post_header_content">
@@ -54,23 +54,23 @@ export default function Post(props) {
           </div>
         </div>
         <div className="image-post">
-          <img src={props.postImage} alt="" className="post-photo" onClick={likePostImagem}/>
+          <img src={props.postImage} alt="" className="post-photo" onClick={likePostImagem} data-test="post-image" />
         </div>
         <div className="post-bottom">
           <div className="post-iteraction-icons">
             <div className="post_icons-left">
-              <img src={heart} alt="" className="icons" onClick={likePost}/>
+              <img src={heart} alt="" className="icons" onClick={likePost} data-test="like-post" />
               <img src={props.postChat} alt="" className="icons" />
               <img src={props.postDirectPlane} alt="" className="icons" />
             </div>
             <div className="post_icons-right">
-            <img src={bookmark} alt="" className="save-icon" onClick={savePost}/>
+            <img src={bookmark} alt="" className="save-icon" onClick={savePost} data-test="save-post"/>
             </div>
           </div>
           
           <div className="post_info">
             <img src={props.postUserLogo} alt="" className="logos-bottom" />
-            <p>Curtido por <span>{props.postUsername}</span> e <span>outras {likeNumber} pessoas</span></p>
+            <p>Curtido por <span data-test="likes-number">{props.postUsername}</span> e <span>outras {likeNumber} pessoas</span></p>
           </div>
         </div>           
       </div>
