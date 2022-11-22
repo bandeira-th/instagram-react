@@ -70,7 +70,7 @@ export default function Post(props) {
           
           <div className="post_info">
             <img src={props.postUserLogo} alt="" className="logos-bottom" />
-            <p>Curtido por <span data-test="likes-number">{props.postUsername}</span> e <span>outras {likeNumber} pessoas</span></p>
+            <p>Curtido por <span >{props.postUsername}</span> e <span data-test="likes-number">outras {likeNumber} pessoas</span></p>
           </div>
         </div>           
       </div>

@@ -30,7 +30,7 @@ export default function Usuario(props) {
         <h2 data-test="name">{props.userName}</h2>
         <div className="personal-info-username-box">
           <p>{username}</p>
-          <img src={editPencil}
+          <img data-test="edit-name" src={editPencil}
             onClick={() => {
               setUsername(prompt("Mude o nome de usuário"));
             }}
